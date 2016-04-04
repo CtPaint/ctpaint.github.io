@@ -118,6 +118,9 @@ body {
   outline: none;
   width: 400px;
   margin-top: 2px;
+  font-smooth: never;
+  webkit-font-smoothing: none;
+  -webkit-font-smoothing: none;
 }
 .field.error {
   border-color: #f20723;
